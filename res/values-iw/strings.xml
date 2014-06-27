@@ -33,7 +33,7 @@
   <string name="setup_complete">ההגדרה הושלמה</string>
   <string name="setup_complete_summary" product="tablet">מזל טוב! הטאבלט שלך מוכן לקרב.</string>
   <string name="setup_complete_summary" product="default">מזל טוב! הטאבלט שלך מוכן לקרב.</string>
-  <string name="setup_welcome">ברוך הבא ל-CyanogenMod</string>
+  <string name="setup_welcome">ברוך הבא ל-Pac ROM</string>
   <string name="setup_welcome_summary" product="tablet">כדי להתחיל עם הטאבלט שלך, בחר את שפתך והמשך.</string>
   <string name="setup_welcome_summary" product="default">כדי להתחיל עם הטאבלט שלך, בחר את שפתך והמשך.</string>
   <string name="setup_cmaccount">הגדר את חשבון CyanogenMod שלך</string>

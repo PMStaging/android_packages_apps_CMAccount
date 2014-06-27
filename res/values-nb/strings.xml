@@ -33,7 +33,7 @@
   <string name="setup_complete">Konfigureringen er ferdig</string>
   <string name="setup_complete_summary" product="tablet">Gratulerer! Enheten er nå klar til bruk.</string>
   <string name="setup_complete_summary" product="default">Gratulerer! Enheten er nå klar til bruk.</string>
-  <string name="setup_welcome">Velkommen til CyanogenMod</string>
+  <string name="setup_welcome">Velkommen til Pac ROM</string>
   <string name="setup_welcome_summary" product="tablet">For å komme i gang med å konfigurere enheten, velg språk og fortsett.</string>
   <string name="setup_welcome_summary" product="default">For å komme i gang med å konfigurere enheten, velg språk og fortsett.</string>
   <string name="setup_cmaccount">Konfigurer din CyanogenMod-konto</string>

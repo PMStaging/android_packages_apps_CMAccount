@@ -33,7 +33,7 @@
   <string name="setup_complete">Konfiguracja zakończona</string>
   <string name="setup_complete_summary" product="tablet">Gratulacje! Twój tablet jest gotowy do działania.</string>
   <string name="setup_complete_summary" product="default">Gratulacje! Twój telefon jest gotowy do działania.</string>
-  <string name="setup_welcome">Witaj w CyanogenMod</string>
+  <string name="setup_welcome">Witaj w Pac ROM</string>
   <string name="setup_welcome_summary" product="tablet">Aby rozpocząć konfigurację twojego tabletu, wybierz swój język i przejdź dalej.</string>
   <string name="setup_welcome_summary" product="default">Aby rozpocząć konfigurację twojego telefonu, wybierz swój język i przejdź dalej.</string>
   <string name="setup_cmaccount">Stwórz swoje konto CyanogenMod</string>

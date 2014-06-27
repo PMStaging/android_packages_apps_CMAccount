@@ -33,7 +33,7 @@
   <string name="setup_complete">Asennus on valmis</string>
   <string name="setup_complete_summary" product="tablet">Onnittelut! Tablettisi on valmis käyttöön.</string>
   <string name="setup_complete_summary" product="default">Onnittelut! Puhelimesi on valmis käyttöön.</string>
-  <string name="setup_welcome">Tervetuloa CyanogenModiin</string>
+  <string name="setup_welcome">Tervetuloa Pac ROM</string>
   <string name="setup_welcome_summary" product="tablet">Valitse kieli jatkaaksesi tablettisi valmistelua.</string>
   <string name="setup_welcome_summary" product="default">Valitse kieli jatkaaksesi puhelimesi valmistelua.</string>
   <string name="setup_cmaccount">Aseta CyanogenMod-tili</string>

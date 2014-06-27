@@ -33,7 +33,7 @@
   <string name="setup_complete">设置完成</string>
   <string name="setup_complete_summary" product="tablet">恭喜您！您的平板已设置完毕。</string>
   <string name="setup_complete_summary" product="default">恭喜您！您的手机已设置完毕。</string>
-  <string name="setup_welcome">欢迎来到 CyanogenMod</string>
+  <string name="setup_welcome">欢迎来到 Pac ROM</string>
   <string name="setup_welcome_summary" product="tablet">开始设置您的设备之前，请先选择语言并继续。</string>
   <string name="setup_welcome_summary" product="default">开始设置您的设备之前，请先选择语言并继续。</string>
   <string name="setup_cmaccount">设置您的 CyanogenMod 帐户</string>

@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">CyanogenMod Rekening</string>
   <string name="next">Volgende</string>
   <string name="continue_label">Gaan voort</string>
   <string name="prev">Vorige</string>
@@ -31,9 +30,9 @@
   <string name="skip_anyway">Slaan in elk geval oor</string>
   <string name="dont_skip">Moenie oorslaan nie</string>
   <string name="setup_complete">Opstelling is gedoen</string>
-  <string name="setup_complete_summary" product="tablet">Baie geluk! Jou tablet is gereed, geniet CM daarop.</string>
-  <string name="setup_complete_summary" product="default">Baie geluk! Jou foon is gereed, geniet CM daarop.</string>
-  <string name="setup_welcome">Welkom by CyanogenMod</string>
+  <string name="setup_complete_summary" product="tablet">Baie geluk! Jou tablet is gereed, geniet Pac daarop.</string>
+  <string name="setup_complete_summary" product="default">Baie geluk! Jou foon is gereed, geniet Pac daarop.</string>
+  <string name="setup_welcome">Welkom by Pac ROM</string>
   <string name="setup_welcome_summary" product="tablet">Om te begin met die opstel van jou tablet, kies jou taal en gaan voort.</string>
   <string name="setup_welcome_summary" product="default">Om te begin met die opstel van jou foon, kies jou taal en gaan voort.</string>
   <string name="setup_cmaccount">Stel jou CyanogenMod rekening op</string>

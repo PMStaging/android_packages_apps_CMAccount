@@ -33,7 +33,7 @@
   <string name="setup_complete">セットアップが完了しました</string>
   <string name="setup_complete_summary" product="tablet">おめでとうございます！お使いのタブレットを楽しむ準備ができました。</string>
   <string name="setup_complete_summary" product="default">おめでとうございます！ お使いの携帯電話を楽しむ準備ができました。</string>
-  <string name="setup_welcome">CyanogenModへようこそ</string>
+  <string name="setup_welcome">Pac ROMへようこそ</string>
   <string name="setup_welcome_summary" product="tablet">タブレットのセットアップを開始するには、言語を選択して続けてください。</string>
   <string name="setup_welcome_summary" product="default">携帯電話のセットアップを開始するには、言語を選択して「次へ」をタップしてください。</string>
   <string name="setup_cmaccount">CyanogenModアカウントのセットアップ</string>
