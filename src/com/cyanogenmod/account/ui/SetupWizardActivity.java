@@ -200,7 +200,6 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks,
             public void run() {
                 final int currentItem = mViewPager.getCurrentItem();
                 final Page currentPage = mPageList.get(currentItem);
-
                 switch (currentPage.getId()) {
                     case R.string.setup_complete:
                         finishSetup();
@@ -208,8 +207,10 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks,
                     case R.string.setup_welcome:
                         onPageFinished(currentPage);
                         // fall through
+                        break;
                     default:
                         mViewPager.setCurrentItem(currentItem + 1, true);
+                        break;
                 }
             }
         });
@@ -254,8 +255,14 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks,
                 mPagerAdapter.notifyDataSetChanged();
             }
         }
-        if (page.getId() == R.string.setup_cmaccount) {
-            doSimCheck();
+        if (page.getId() == R.string.setup_google_account) {
+            // Only auto show the google account setup once.
+            boolean shown = mSharedPreferences.getBoolean(KEY_G_ACCOUNT_SHOWN, false);
+            if (!shown) {
+                mSharedPreferences.edit().putBoolean(KEY_G_ACCOUNT_SHOWN, true).commit();
+                doSimCheck();
+                launchGoogleAccountSetup();
+            }
         }
         updateNextPreviousState();
     }
@@ -293,13 +300,6 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks,
                                 CMAccountUtils.launchWifiSetup(SetupWizardActivity.this);
                             }
                             break;
-                        case R.string.setup_cmaccount:
-                            if (CMAccountUtils.getCMAccountAccount(SetupWizardActivity.this) != null) {
-                                removeSetupPage(page, false);
-                            } else {
-                                doNext();
-                            }
-                            break;
                         case R.string.setup_google_account:
                             if (mGoogleAccountSetupComplete) {
                                 removeSetupPage(page, false);
@@ -333,12 +333,7 @@ public class SetupWizardActivity extends Activity implements SetupDataCallbacks,
 
     private void removeUnNeededPages() {
         boolean pagesRemoved = false;
-        Page page = mPageList.findPage(R.string.setup_cmaccount);
-        if (page != null && accountExists(CMAccount.ACCOUNT_TYPE_CMAccount)) {
-            removeSetupPage(page, false);
-            pagesRemoved = true;
-        }
-        page = mPageList.findPage(R.string.setup_google_account);
+        Page page = mPageList.findPage(R.string.setup_google_account);
         if (page != null && (!GCMUtil.googleServicesExist(SetupWizardActivity.this) || accountExists(CMAccount.ACCOUNT_TYPE_GOOGLE))) {
             removeSetupPage(page, false);
             pagesRemoved = true;
