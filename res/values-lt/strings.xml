@@ -33,7 +33,7 @@
   <string name="setup_complete">Sąranka baigta</string>
   <string name="setup_complete_summary" product="tablet">Sveikiname! Jūsų planšetinis kompiuteris paruoštas darbui.</string>
   <string name="setup_complete_summary" product="default">Sveikiname! Jūsų telefonas paruoštas darbui.</string>
-  <string name="setup_welcome">Jus sveikina „CyanogenMod“</string>
+  <string name="setup_welcome">Jus sveikina „Pac ROM“</string>
   <string name="setup_welcome_summary" product="tablet">Norėdami naudotis planšetiniu kompiuteriu pasirinkite savo kalbą ir tęskite toliau.</string>
   <string name="setup_welcome_summary" product="default">Norėdami naudotis telefonu pasirinkite savo kalbą ir tęskite toliau.</string>
   <string name="setup_cmaccount">Sukurti savo „CyanogenMod“ paskyrą</string>

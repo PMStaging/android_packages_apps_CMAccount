@@ -33,7 +33,7 @@
   <string name="setup_complete">Nastavenie je dokončené</string>
   <string name="setup_complete_summary" product="tablet">Gratulujeme, Váš tablet je pripravený na použitie.</string>
   <string name="setup_complete_summary" product="default">Gratulujeme! Nastavenie vášho telefónu je dokončené.</string>
-  <string name="setup_welcome">Vitajte v CyanogenMode</string>
+  <string name="setup_welcome">Vitajte v Pac ROM</string>
   <string name="setup_welcome_summary" product="tablet">Pre nastavenie vášho tabletu si vyberte jazyk a pokračujte ďalej.</string>
   <string name="setup_welcome_summary" product="default">Pre nastavenie vášho telefónu vyberte prosím jazyk a pokračujte ďalej.</string>
   <string name="setup_cmaccount">Nastavte váš účet CyanogenMod</string>
