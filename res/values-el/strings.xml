@@ -33,7 +33,7 @@
   <string name="setup_complete">Η ρύθμιση ολοκληρώθηκε</string>
   <string name="setup_complete_summary" product="tablet">Συγχαρητήρια! Το tablet σας είναι έτοιμo για χρήση.</string>
   <string name="setup_complete_summary" product="default">Συγχαρητήρια! Το τηλέφωνό σας είναι έτοιμη για χρήση.</string>
-  <string name="setup_welcome">Καλωσορίσατε στο CyanogenMod</string>
+  <string name="setup_welcome">Καλωσορίσατε στο Pac ROM</string>
   <string name="setup_welcome_summary" product="tablet">Για να ξεκινήσετε την ρύθμιση του tablet σας, επιλέξτε τη γλώσσα σας και συνεχίστε.</string>
   <string name="setup_welcome_summary" product="default">Για να ξεκινήσετε την ρύθμιση του τηλεφώνου σας, επιλέξτε τη γλώσσα σας και συνεχίστε.</string>
   <string name="setup_cmaccount">Ρυθμίστε τον CyanogenMod λογαριασμό σας</string>

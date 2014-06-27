@@ -33,7 +33,7 @@
   <string name="setup_complete">Настройка завершена</string>
   <string name="setup_complete_summary" product="tablet">Поздравляем! Ваш планшет готов к использованию.</string>
   <string name="setup_complete_summary" product="default">Поздравляем! Ваш телефон готов к использованию.</string>
-  <string name="setup_welcome">Добро пожаловать в CyanogenMod</string>
+  <string name="setup_welcome">Добро пожаловать в Pac ROM</string>
   <string name="setup_welcome_summary" product="tablet">Для начала настройки планшета выберите язык и нажмите «Далее».</string>
   <string name="setup_welcome_summary" product="default">Для начала настройки телефона выберите язык и нажмите «Далее».</string>
   <string name="setup_cmaccount">Настройка аккаунта CM</string>

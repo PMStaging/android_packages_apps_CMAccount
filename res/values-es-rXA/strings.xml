@@ -33,7 +33,7 @@
   <string name="setup_complete">Configuración completada</string>
   <string name="setup_complete_summary" product="tablet">¡Norabona! Configuróse la tablet.</string>
   <string name="setup_complete_summary" product="default">¡Norabona! Configuróse\'l teléfonu.</string>
-  <string name="setup_welcome">Bienllegáu a CyanogenMod</string>
+  <string name="setup_welcome">Bienllegáu a Pac ROM</string>
   <string name="setup_welcome_summary" product="tablet">Pa empezar a configurar la tablet, seleiciona la llingua y toca en Siguiente.</string>
   <string name="setup_welcome_summary" product="default">Pa empezar a configurar el to teléfonu, seleiciona la llingua y toca en Siguiente.</string>
   <string name="setup_cmaccount">Configurar la to cuenta de CyanogenMod</string>
